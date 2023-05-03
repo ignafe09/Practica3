@@ -1,5 +1,5 @@
 # Practica3 Videojuego Multijugador
-Los archivos de Python salaV5.py y playerV5.py consisten en un videojuego multijugador distribuido hecho con las librerías pygame y Multiprocessing.
+Los archivos de Python salaV5.py y playerV5.py consisten en un videojuego multijugador distribuido hecho con las librerías pygame y Multiprocessing. Es importante que las imágenes que se adjuntan estén en la misma carpeta que los archivos Python para poder ejecutar los perogramas.
 
 SOBRE EL VIDEOJUEGO:
 - Es un juego de dos jugadores.
@@ -11,4 +11,8 @@ SOBRE EL VIDEOJUEGO:
 SOBRE LOS ARCHIVOS:
 - salaV5.py se debe ejecutar en una terminal que hará de sala. Esta realizará todas las operaciones aritméticas en función de los eventos que le lleguen de los otros jugadores. De esta forma, la sala lleva toda la información importante acerca del juego.
 
-- playerV5.py se ejecuta en la terminal del jugador y toma como argumento la dirección ip de la sala para poder conectarse a ella. Cuando solo se ha conectado un jugador, le aparece una pantalla de carga que pone: 'Esperando al contrincante'. Cuando se conecta el otro jugador el juego comienza inmediatamente. Este programa se encarga de recibir la informaci
+- playerV5.py se ejecuta en la terminal del jugador y toma como argumento la dirección ip de la sala para poder conectarse a ella. Cuando solo se ha conectado un jugador, le aparece una pantalla de carga que pone: 'Esperando al contrincante'. Cuando se conecta el otro jugador el juego comienza inmediatamente. Este programa se encarga de recibir la información.
+
+- playerv1.py y salaV1.py son una primera versión del juego sin colisiones de las balas. Tampoco está implementada la eliminación de una bala si sale de rango por lo que con esta versión podría dar problemas de memoria si se dispara.
+
+- Las imágenes PNG son para el fondo de pantalla, el proyectil y la nave del jugador.
